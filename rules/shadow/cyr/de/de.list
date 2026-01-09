@@ -12,6 +12,7 @@ DOMAIN-SUFFIX, sumup.io
 DOMAIN-SUFFIX, sumup.com
 DOMAIN-SUFFIX, device.marketingcloudapis.com
 DOMAIN-SUFFIX, appsflyersdk.com
+DOMAIN-KEYWORD, sumup
 
 # krak pro
 DOMAIN-SUFFIX, expo.dev
@@ -24,6 +25,7 @@ DOMAIN-SUFFIX, nsureapi.com
 DOMAIN-SUFFIX, zendesk.com
 DOMAIN-SUFFIX, smooch.io
 DOMAIN-SUFFIX, segment.io
+DOMAIN-KEYWORD, krak
 
 # n26
 DOMAIN-SUFFIX, tech26.de
@@ -36,10 +38,13 @@ DOMAIN-SUFFIX, adjust.com
 DOMAIN-SUFFIX, dev-tech26.de
 DOMAIN-SUFFIX, number26.de
 DOMAIN-SUFFIX, ctfassets.net
-
+DOMAIN-KEYWORD, tech26
+DOMAIN-KEYWORD, number26
+DOMAIN-KEYWORD, n26
 
 # ifast
 DOMAIN-SUFFIX, zimperium.com
 DOMAIN-SUFFIX, ifastgb.com
 DOMAIN-SUFFIX, fundsupermart.com
 DOMAIN-SUFFIX, ytimg.com
+DOMAIN-KEYWORD, ifastgb
