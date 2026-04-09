@@ -34,6 +34,7 @@ DOMAIN-SUFFIX, cdn.futustatic.com
 #zft
 DOMAIN-KEYWORD, zft2000
 DOMAIN-KEYWORD, zft2025
+DOMAIN-KEYWORD, toptrader1979
 DOMAIN, quote.zft2000.com
 DOMAIN-KEYWORD, chiefgroup
 DOMAIN-KEYWORD, chieftrader1979
@@ -46,4 +47,5 @@ DOMAIN, cdn.chiefgroup.com.hk
 DOMAIN, api2.chieftrader1979.com
 DOMAIN, chief-deposit.cg1979.com
 DOMAIN, chief-deposit.toptrader1979.com
-DOMAIN, api2.chieftrader1979.com
+
+DOMAIN, api2.toptrader1979.com
