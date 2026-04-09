@@ -1,0 +1,32 @@
+# fx
+DOMAIN-KEYWORD, fosunhanig
+DOMAIN-KEYWORD, fotechwealth
+DOMAIN-SUFFIX, fosunhanig.com
+DOMAIN-SUFFIX, operationapi.fosunhanig.com
+DOMAIN-SUFFIX, mktdata.fosunhanig.com
+DOMAIN-SUFFIX, oss.fosunhanig.com
+DOMAIN-SUFFIX, uapi.fosunhanig.com
+DOMAIN-SUFFIX, mc.fosunhanig.com
+DOMAIN-SUFFIX, aiapi.fosunhanig.com
+DOMAIN-SUFFIX, sentry-web.fosunhanig.com
+DOMAIN-SUFFIX, wealth.fosunhanig.com
+DOMAIN-SUFFIX, tapi.fosunhanig.com
+DOMAIN-SUFFIX, news.fosunhanig.com
+DOMAIN-SUFFIX, h5.fotechwealth.com
+DOMAIN-SUFFIX, account-baas.fosunhanig.com
+DOMAIN-SUFFIX, bff-mobile-baas.fosunhanig.com
+DOMAIN-SUFFIX, customer-baas.fosunhanig.com
+DOMAIN-SUFFIX, customer-baas.fosunhanig.com
+DOMAIN-SUFFIX, auth-baas.fosunhanig.com
+DOMAIN-SUFFIX, trade-baas-api.fosunhanig.com
+DOMAIN-SUFFIX, cmsapi.fosunhanig.com
+DOMAIN-SUFFIX, shence-admin.fosunhanig.com
+DOMAIN-SUFFIX, push.fosunhanig.com
+
+
+#moomoo
+DOMAIN-KEYWORD, moomoobull
+DOMAIN-KEYWORD, moomoo
+DOMAIN-SUFFIX, api.moomoobull.com
+DOMAIN-SUFFIX, moomoo.com
+DOMAIN-SUFFIX, cdn.futustatic.com
