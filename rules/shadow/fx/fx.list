@@ -25,5 +25,9 @@ DOMAIN-SUFFIX, push.fosunhanig.com
 
 
 #moomoo
+DOMAIN-KEYWORD, moomoobull
+DOMAIN-KEYWORD, moomoo
 DOMAIN-SUFFIX, api.moomoobull.com
 DOMAIN-SUFFIX, moomoo.com
+DOMAIN-SUFFIX, cdn.futustatic.com
+
