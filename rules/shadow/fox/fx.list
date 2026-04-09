@@ -30,3 +30,20 @@ DOMAIN-KEYWORD, moomoo
 DOMAIN-SUFFIX, api.moomoobull.com
 DOMAIN-SUFFIX, moomoo.com
 DOMAIN-SUFFIX, cdn.futustatic.com
+
+#zft
+DOMAIN-KEYWORD, zft2000
+DOMAIN-KEYWORD, zft2025
+DOMAIN, quote.zft2000.com
+DOMAIN-KEYWORD, chiefgroup
+DOMAIN-KEYWORD, chieftrader1979
+DOMAIN-SUFFIX, cg1979.com
+DOMAIN-SUFFIX, zft2025.com
+DOMAIN-SUFFIX, cm-chiefgroup.com
+DOMAIN-SUFFIX, api2.toptrader1979.com
+DOMAIN, api2.chiefgroup.com.hk
+DOMAIN, cdn.chiefgroup.com.hk
+DOMAIN, api2.chieftrader1979.com
+DOMAIN, chief-deposit.cg1979.com
+DOMAIN, chief-deposit.toptrader1979.com
+DOMAIN, api2.chieftrader1979.com
