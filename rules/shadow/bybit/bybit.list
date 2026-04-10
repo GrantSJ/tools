@@ -1,5 +1,6 @@
 # NAME: Bybit
 
+DOMAIN-KEYWORD, bybit
 DOMAIN,bybit-exchange.github.io
 DOMAIN,monitor-frontend-collector.a.bybit-aws.com
 DOMAIN,bybit.ada.support
@@ -16,4 +17,16 @@ DOMAIN-SUFFIX,bybit.biz
 DOMAIN-SUFFIX,bybdc6.com   
 DOMAIN-SUFFIX,bybit-global.com
 DOMAIN-SUFFIX,bybit.cloud     
-DOMAIN-KEYWORD, bybit
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,appsflyer.com
+USER-AGENT,*.amazonaws.com
+IP-CIDR,13.32.121.6/32,no-resolve
+IP-CIDR,43.133.238.145/32,no-resolve
+IP-CIDR,13.33.187.108/32,no-resolve
+IP-CIDR,150.109.230.182/32,no-resolve
+IP-CIDR,142.251.215.234/32,no-resolve
+IP-CIDR,43.133.241.84/32,no-resolve
+IP-CIDR,3.160.150.37/32,no-resolve
