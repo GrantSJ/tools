@@ -19,10 +19,16 @@ DOMAIN-SUFFIX,bybit-global.com
 DOMAIN-SUFFIX,bybit.cloud     
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN,sc-datasink.ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,wsot2022.com
+DOMAIN-SUFFIX,ng-dex.com
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,appsflyer.com
+DOMAIN,resources.triple.app
 USER-AGENT,*.amazonaws.com
+USER-AGENT,*.ffe390afd658c19dcbf707e0597b846d.de
 IP-CIDR,13.32.121.6/32,no-resolve
 IP-CIDR,43.133.238.145/32,no-resolve
 IP-CIDR,13.33.187.108/32,no-resolve
