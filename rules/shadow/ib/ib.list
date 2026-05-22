@@ -1,0 +1,21 @@
+#inter Broks
+DOMAIN-KEYWORD,ibkr
+DOMAIN-KEYWORD,ibllc
+DOMAIN-KEYWORD,interactivebrokers
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,zacks.com
+DOMAIN-SUFFIX,ibllc.com
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN,c.go-mpulse.net
+DOMAIN,static.seekingalpha.com
+DOMAIN,g.foolcdn.com
+DOMAIN,widgets.tipranks.com
+DOMAIN-SUFFIX,estimize.com
+IP-CIDR,101.52.237.228/32,no-resolve
+IP-CIDR,8.17.22.31/32,no-resolve
+USER-AGENT,*ibkr*
+USER-AGENT,ibkr*
+USER-AGENT,*ibllc*
+USER-AGENT,ibllc*
+USER-AGENT,*interactivebrokers*
+USER-AGENT,interactivebrokers*
