@@ -1,0 +1,77 @@
+# gemini rules需前置到谷歌系其他产品的规则以前
+
+# --- Google DeepMind ---
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+
+# --- Google Generative Language API ---
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,www.googleapis.com
+DOMAIN-SUFFIX,maps.googleapis.com
+DOMAIN-SUFFIX,fonts.googleapis.com
+DOMAIN-SUFFIX,jnn-pa.googleapis.com
+DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+DOMAIN-SUFFIX,streetviewpixels-pa.googleapis.com
+DOMAIN-SUFFIX,content-autofill.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+
+# --- Google CDN ---
+DOMAIN-SUFFIX,www.gstatic.com
+DOMAIN-SUFFIX,fonts.gstatic.com
+DOMAIN-SUFFIX,ssl.gstatic.com
+DOMAIN-SUFFIX,maps.gstatic.com
+DOMAIN-SUFFIX,encrypted-tbn0.gstatic.com
+DOMAIN-SUFFIX,encrypted-tbn1.gstatic.com
+DOMAIN-SUFFIX,encrypted-tbn2.gstatic.com
+DOMAIN-SUFFIX,encrypted-tbn3.gstatic.com
+
+# --- Google AI Studio ---
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,alkalicore-pa.clients6.google.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,ogads-pa.clients6.google.com
+DOMAIN-SUFFIX,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,lh3.google.com
+DOMAIN-SUFFIX,ogs.google.com
+DOMAIN-SUFFIX,play.google.com
+DOMAIN-SUFFIX,www.google.com
+DOMAIN-SUFFIX,generativeai.google
+
+# --- Google Gemini ---
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
+
+# --- Gemini app firewall hosts ---
+DOMAIN-SUFFIX,www.google-analytics.com
+DOMAIN-SUFFIX,static.doubleclick.net
+DOMAIN-SUFFIX,td.doubleclick.net
+DOMAIN-SUFFIX,lh5.googleusercontent.com
+DOMAIN-SUFFIX,lh3.googleusercontent.com
+DOMAIN-SUFFIX,csp.withgoogle.com
+DOMAIN-SUFFIX,www.googletagmanager.com
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,i.ytimg.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+
+# --- 预防性规则 (使用 Surge 关键字匹配效率更高) ---
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,colab
+
+# --- 其他补充 ---
+DOMAIN-SUFFIX,signaler-pa.clients6.google.com
+DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,signaler-pa.googleapis.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+DOMAIN-SUFFIX,notifications-pa.googleapis.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
+DOMAIN-SUFFIX,play.googleapis.com
