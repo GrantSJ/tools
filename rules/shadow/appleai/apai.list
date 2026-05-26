@@ -1,0 +1,20 @@
+# === Apple Intelligence, Siri, and Search ===
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,guzzoni.apple.com
+
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple-relay.mask.apple-dns.net
+
+# === Apple Intelligence & Private Cloud Compute (PCC) ===
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,cp4.cloudflare.com
+
+# --- 以下为原规则中被注释的部分 (如有需要请取消注释) ---
+# DOMAIN,gateway.icloud.com
+# DOMAIN,gateway.fe2.apple-dns.net
+# DOMAIN,seed.siri.apple.com
+# DOMAIN-SUFFIX,v.aaplimg.com
+# DOMAIN,seed-siri-apple-com.v.aaplimg.com
+# DOMAIN,smoot-searchv2-aapse1c.v.aaplimg.com
