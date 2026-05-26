@@ -1,0 +1,22 @@
+# === Apple News & Search Services ===
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
+DOMAIN-SUFFIX,apple.news,PROXY
+
+# === Apple News Asset & Edge Services ===
+DOMAIN-SUFFIX,news-events.apple.com,PROXY
+DOMAIN-SUFFIX,news-assets.apple.com,PROXY
+DOMAIN-SUFFIX,news-client.apple.com,PROXY
+DOMAIN-SUFFIX,news-sports.apple.com,PROXY
+DOMAIN-SUFFIX,news-edge.apple.com,PROXY
+
+DOMAIN-SUFFIX,news-sports-events.apple.com,PROXY
+DOMAIN-SUFFIX,news-client-search.apple.com,PROXY
+DOMAIN-SUFFIX,news-todayconfig-edge.apple.com,PROXY
+DOMAIN-SUFFIX,newsletter-edge.apple.com,PROXY
+
+# === 原注释规则 (按需开启) ===
+# DOMAIN-SUFFIX,amp-api-edge.apps.apple.com,PROXY
+# DOMAIN-SUFFIX,amp-api.apps.apple.com,PROXY
+# DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,PROXY
+# DOMAIN-SUFFIX,fpinit.itunes.apple.com,PROXY
+# DOMAIN-SUFFIX,bag.itunes.apple.com,PROXY
