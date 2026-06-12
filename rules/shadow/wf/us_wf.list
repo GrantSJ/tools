@@ -1,0 +1,41 @@
+#!name=Wi-Fi  US
+#!desc=美国 SIM 卡 Wi-Fi Call 配置规则
+# 本规则适，分流节点须是美国节点。使用本规则后打开飞行模式后再关闭飞行模式进行联网即可正常开启 Wi-Fi call
+# 仓库地址：https://github.com/LOWERTOP/Shadowrocket-First
+
+# 地区检测
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+
+# 端口代理
+AND,((GEOIP,US),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
+
+# 红包
+DOMAIN,config.rcs.mnc280.mcc310.jibecloud.net
+DOMAIN,sentitlement2.mobile.att.net
+DOMAIN-SUFFIX,mobile.att.net
+DOMAIN-KEYWORD,redpocket
+# AT&T Wi-Fi Calling & VoLTE 核心网网段直连
+IP-CIDR,107.122.31.0/24,no-resolve
+# 运营商漫游/中继节点 AWS 新加坡 IP 直连
+IP-CIDR,13.229.87.187/32,no-resolve
+
+DOMAIN-SUFFIX,crl.t-mobile.com
+DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,eas3.msg.t-mobile.com
+DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,mascns.t-mobile.com
+DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
+DOMAIN-SUFFIX,optimizely.com
+DOMAIN-SUFFIX,redirect.ultra.me
+# DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+# DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ultramobile.com
+DOMAIN-KEYWORD,t-mobile
+DOMAIN-KEYWORD,ultramobile
+
+IP-CIDR,206.29.177.36/32,no-resolve
+IP-CIDR,208.54.0.0/16,no-resolve
+IP-CIDR,66.94.0.0/19,no-resolve
