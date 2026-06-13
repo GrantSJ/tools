@@ -3,6 +3,9 @@
 # 本规则适用于 CSL、CMHK、3 HK 的香港 SIM 卡的 Wi-Fi Call 功能，分流节点须是香港节点
 # 仓库地址：https://github.com/LOWERTOP/Shadowrocket-First
 
+# Wi-Fi calling 地区设置
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+
 # 端口代理
 AND,((GEOIP,HK),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500),(DEST-PORT,16384–16403))))))
 
