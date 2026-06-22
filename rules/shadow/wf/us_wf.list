@@ -6,18 +6,29 @@
 # 端口代理
 AND,((GEOIP,US),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
 
-# 红包
-DOMAIN,config.rcs.mnc280.mcc310.jibecloud.net
-DOMAIN,sentitlement2.mobile.att.net
+# tell & redpt 全局合规与 SIM 卡鉴权（两大运营商共有） ==============
+DOMAIN-SUFFIX,idemia.io
+
+# Tell 
+DOMAIN-SUFFIX,msg.t-mobile.com
+IP-CIDR,208.54.0.0/16,no-resolve
+
+# Red Pocket (AT&T 体系)  ==============
+DOMAIN-SUFFIX,rcs.mnc280.mcc310.jibecloud.net
 DOMAIN-SUFFIX,mobile.att.net
+DOMAIN-SUFFIX,epdg.epc.att.net
+IP-CIDR,107.120.0.0/13,no-resolve
+#IP-CIDR,107.120.0.0/16,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve # config.rcs.mnc280.mcc310.jibecloud.net
+
+# ==== 兜底 redpt 和 tell ==
+DOMAIN,sentitlement2.mobile.att.net
+DOMAIN,e11z3.mvm.mobile.att.net
 DOMAIN-KEYWORD,redpocket
-# AT&T Wi-Fi Calling & VoLTE 核心网网段直连
-IP-CIDR,107.122.31.0/24,no-resolve
-# 运营商漫游/中继节点 AWS 新加坡 IP 直连
-IP-CIDR,13.229.87.187/32,no-resolve
 
 DOMAIN-SUFFIX,crl.t-mobile.com
 DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,eas3.msg.t-mobile.com
 DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
@@ -25,10 +36,8 @@ DOMAIN-SUFFIX,mascns.t-mobile.com
 DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
 DOMAIN-SUFFIX,optimizely.com
 DOMAIN-SUFFIX,redirect.ultra.me
-# DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
-# DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
-DOMAIN-SUFFIX,epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
-DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ultramobile.com
 DOMAIN-KEYWORD,t-mobile
 DOMAIN-KEYWORD,ultramobile
