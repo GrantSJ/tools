@@ -19,7 +19,6 @@ DOMAIN-SUFFIX,mobile.att.net
 DOMAIN-SUFFIX,epdg.epc.att.net
 IP-CIDR,107.120.0.0/13,no-resolve
 #IP-CIDR,107.120.0.0/16,no-resolve
-IP-CIDR,74.125.0.0/16,no-resolve # config.rcs.mnc280.mcc310.jibecloud.net
 
 # ==== 兜底 redpt 和 tell ==
 DOMAIN,sentitlement2.mobile.att.net
