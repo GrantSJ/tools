@@ -1,0 +1,9 @@
+# 端口代理
+AND,((GEOIP,DE),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
+
+# calya
+DOMAIN-SUFFIX,es-de.vodafone.com
+DOMAIN-SUFFIX,pr.go-esim.com
+DOMAIN-SUFFIX,rcs.mnc002.mcc262.jibecloud.net
+DOMAIN-SUFFIX,epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
+IP-CIDR,139.7.0.0/16,no-resolve
