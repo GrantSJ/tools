@@ -10,10 +10,10 @@ DOMAIN-SUFFIX,tdameritrade.com
 DOMAIN-SUFFIX,myschwab.com
 
 #DOMAIN-SUFFIX,uplynk.com
-#DOMAIN-SUFFIX,trefis.com
-#DOMAIN-SUFFIX,cnbc.com
-#DOMAIN-SUFFIX,nbcuni.com
-#DOMAIN-SUFFIX,evidon.com
+DOMAIN-SUFFIX,trefis.com
+DOMAIN-SUFFIX,cnbc.com
+DOMAIN-SUFFIX,nbcuni.com
+DOMAIN-SUFFIX,evidon.com
 
 #IP-CIDR,76.223.0.0/16,no-resolve
 #IP-CIDR,13.248.0.0/14,no-resolve
