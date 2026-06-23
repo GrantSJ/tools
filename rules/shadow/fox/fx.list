@@ -2,27 +2,16 @@
 DOMAIN-KEYWORD, fosunhanig
 DOMAIN-KEYWORD, fotechwealth
 DOMAIN-SUFFIX, fosunhanig.com
-DOMAIN-SUFFIX, operationapi.fosunhanig.com
-DOMAIN-SUFFIX, mktdata.fosunhanig.com
-DOMAIN-SUFFIX, oss.fosunhanig.com
-DOMAIN-SUFFIX, uapi.fosunhanig.com
-DOMAIN-SUFFIX, mc.fosunhanig.com
-DOMAIN-SUFFIX, aiapi.fosunhanig.com
-DOMAIN-SUFFIX, sentry-web.fosunhanig.com
-DOMAIN-SUFFIX, wealth.fosunhanig.com
-DOMAIN-SUFFIX, tapi.fosunhanig.com
-DOMAIN-SUFFIX, news.fosunhanig.com
-DOMAIN-SUFFIX, h5.fotechwealth.com
-DOMAIN-SUFFIX, account-baas.fosunhanig.com
-DOMAIN-SUFFIX, bff-mobile-baas.fosunhanig.com
-DOMAIN-SUFFIX, customer-baas.fosunhanig.com
-DOMAIN-SUFFIX, customer-baas.fosunhanig.com
-DOMAIN-SUFFIX, auth-baas.fosunhanig.com
-DOMAIN-SUFFIX, trade-baas-api.fosunhanig.com
-DOMAIN-SUFFIX, cmsapi.fosunhanig.com
-DOMAIN-SUFFIX, shence-admin.fosunhanig.com
-DOMAIN-SUFFIX, push.fosunhanig.com
+DOMAIN-SUFFIX, fotechwealth.com
 DOMAIN-SUFFIX, mfosunhani.com
+DOMAIN-SUFFIX, oss-accelerate.aliyuncs.com
+DOMAIN-SUFFIX, fswchains.com
+DOMAIN-SUFFIX, captcha.gtimg.com
+DOMAIN-SUFFIX, aliyuncs.com
+DOMAIN-SUFFIX, efinshares.com
+DOMAIN-SUFFIX, turing.captcha.gtimg.com
+DOMAIN-SUFFIX, itigertech.com
+
 
 #zft
 DOMAIN-KEYWORD, zft2000
