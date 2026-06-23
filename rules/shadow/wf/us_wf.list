@@ -4,7 +4,7 @@
 # 仓库地址：https://github.com/LOWERTOP/Shadowrocket-First
 
 # 端口代理
-AND,((GEOIP,US),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
+# AND,((GEOIP,US),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
 
 # tell & redpt 全局合规与 SIM 卡鉴权（两大运营商共有） ==============
 DOMAIN-SUFFIX,idemia.io
