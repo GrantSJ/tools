@@ -1,5 +1,4 @@
 
-
 USER-AGENT,*schwab*
 USER-AGENT,Schwab*
 USER-AGENT,thinkorswim*
@@ -7,21 +6,24 @@ DOMAIN-SUFFIX,schwab.com
 DOMAIN-SUFFIX,charlesschwab.com
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,thinkorswim.com
-DOMAIN-SUFFIX,uplynk.com
-DOMAIN-SUFFIX,trefis.com
-DOMAIN-SUFFIX,cnbc.com
-DOMAIN-SUFFIX,nbcuni.com
-DOMAIN-SUFFIX,evidon.com
+DOMAIN-SUFFIX,tdameritrade.com
+DOMAIN-SUFFIX,myschwab.com
 
-IP-CIDR,76.223.0.0/16,no-resolve
-IP-CIDR,13.248.0.0/14,no-resolve
+#DOMAIN-SUFFIX,uplynk.com
+#DOMAIN-SUFFIX,trefis.com
+#DOMAIN-SUFFIX,cnbc.com
+#DOMAIN-SUFFIX,nbcuni.com
+#DOMAIN-SUFFIX,evidon.com
+
+#IP-CIDR,76.223.0.0/16,no-resolve
+#IP-CIDR,13.248.0.0/14,no-resolve
 
 # 拦截 Akamai 测速与地区鉴权脚本网段（23.3.88.*、23.11.206.* 所在大网段）
-IP-CIDR,23.0.0.0/8,no-resolve
+#IP-CIDR,23.0.0.0/8,no-resolve
 
 # 拦截原德美利价格核心 API 与 toslc 长连接（98.85.248.83 与 50.18.54.75 所在网段）
-IP-CIDR,98.85.248.0/24,no-resolve
-IP-CIDR,50.18.0.0/16,no-resolve
-IP-CIDR,162.93.0.0/16,no-resolve
+#IP-CIDR,98.85.248.0/24,no-resolve
+#IP-CIDR,50.18.0.0/16,no-resolve
+#IP-CIDR,162.93.0.0/16,no-resolve
 
-URL-REGEX,^http://.+/getstream\.do
+#URL-REGEX,^http://.+/getstream\.do
