@@ -4,7 +4,7 @@
 # 仓库地址：https://github.com/LOWERTOP/Shadowrocket-First
 
 # 端口代理
-AND,((GEOIP,HK),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500),(DEST-PORT,16384–16403))))))
+# AND,((GEOIP,HK),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500),(DEST-PORT,16384–16403))))))
 
 # 香港 SIM 卡 Wi-Fi Calling 配置规则
 DOMAIN-SUFFIX,wlan.three.com.hk
