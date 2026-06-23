@@ -9,9 +9,10 @@ DOMAIN-KEYWORD,moomoo
 DOMAIN-KEYWORD,futustatic
 USER-AGENT,moomoo*
 USER-AGENT,Futu*
-DOMAIN-SUFFIX,my-imcloud.com
 
-# DOMAIN-SUFFIX,fastly-edge.com
+DOMAIN-SUFFIX,my-imcloud.com
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,fastly-edge.com
 
 
 #IP-CIDR,43.128.0.0/12,no-resolve
