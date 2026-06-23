@@ -17,6 +17,7 @@ IP-CIDR,208.54.0.0/16,no-resolve
 DOMAIN-SUFFIX,rcs.mnc280.mcc310.jibecloud.net
 DOMAIN-SUFFIX,mobile.att.net
 DOMAIN-SUFFIX,epdg.epc.att.net
+DOMAIN-SUFFIX,epc.att-idns.net
 IP-CIDR,107.120.0.0/13,no-resolve
 #IP-CIDR,107.120.0.0/16,no-resolve
 
