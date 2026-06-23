@@ -1,33 +1,33 @@
 # fx
-DOMAIN-KEYWORD, fosunhanig
-DOMAIN-KEYWORD, fotechwealth
-DOMAIN-SUFFIX, fosunhanig.com
-DOMAIN-SUFFIX, fotechwealth.com
-DOMAIN-SUFFIX, mfosunhani.com
-DOMAIN-SUFFIX, oss-accelerate.aliyuncs.com
-DOMAIN-SUFFIX, fswchains.com
-DOMAIN-SUFFIX, captcha.gtimg.com
-DOMAIN-SUFFIX, aliyuncs.com
-DOMAIN-SUFFIX, efinshares.com
-DOMAIN-SUFFIX, turing.captcha.gtimg.com
-DOMAIN-SUFFIX, itigertech.com
+DOMAIN-KEYWORD,fosunhanig
+DOMAIN-KEYWORD,fotechwealth
+DOMAIN-SUFFIX,fosunhanig.com
+DOMAIN-SUFFIX,fotechwealth.com
+DOMAIN-SUFFIX,mfosunhani.com
+DOMAIN-SUFFIX,oss-accelerate.aliyuncs.com
+DOMAIN-SUFFIX,fswchains.com
+DOMAIN-SUFFIX,captcha.gtimg.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,efinshares.com
+DOMAIN-SUFFIX,captcha.gtimg.com
+DOMAIN-SUFFIX,itigertech.com
 
 
 #zft
-DOMAIN-KEYWORD, zft2000
-DOMAIN-KEYWORD, zft2025
-DOMAIN-KEYWORD, toptrader1979
-DOMAIN, quote.zft2000.com
-DOMAIN-KEYWORD, chiefgroup
-DOMAIN-KEYWORD, chieftrader1979
-DOMAIN-SUFFIX, cg1979.com
-DOMAIN-SUFFIX, zft2025.com
-DOMAIN-SUFFIX, cm-chiefgroup.com
-DOMAIN-SUFFIX, api2.toptrader1979.com
-DOMAIN, api2.chiefgroup.com.hk
-DOMAIN, cdn.chiefgroup.com.hk
-DOMAIN, api2.chieftrader1979.com
-DOMAIN, chief-deposit.cg1979.com
-DOMAIN, chief-deposit.toptrader1979.com
+#DOMAIN-KEYWORD, zft2000
+#DOMAIN-KEYWORD, zft2025
+#DOMAIN-KEYWORD, toptrader1979
+#DOMAIN, quote.zft2000.com
+#DOMAIN-KEYWORD, chiefgroup
+#DOMAIN-KEYWORD, chieftrader1979
+#DOMAIN-SUFFIX, cg1979.com
+#DOMAIN-SUFFIX, zft2025.com
+#DOMAIN-SUFFIX, cm-chiefgroup.com
+#DOMAIN-SUFFIX, api2.toptrader1979.com
+#DOMAIN, api2.chiefgroup.com.hk
+#DOMAIN, cdn.chiefgroup.com.hk
+#DOMAIN, api2.chieftrader1979.com
+#DOMAIN, chief-deposit.cg1979.com
+#DOMAIN, chief-deposit.toptrader1979.com
 
-DOMAIN, api2.toptrader1979.com
+#DOMAIN, api2.toptrader1979.com
