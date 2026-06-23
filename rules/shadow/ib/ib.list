@@ -1,27 +1,59 @@
 #inter Broks
+
+########## TWS / Gateway Infrastructure (核心基建) ##########
+# TWS 软件、网关、行情数据的主通道 (*.ibllc.com)
+DOMAIN-SUFFIX,ibllc.com
+
+# 中国大陆专用接入网关 (如 mcgw1.ibllc.com.cn)
+# ⚠️ 关键：漏了这条，国内 TWS 连接可能会不稳定
+DOMAIN-SUFFIX,ibllc.com.cn
+
+########## Web API & Tools ##########
+# Client Portal API 专用域名，量化/第三方工具必用
+DOMAIN,api.ibkr.com
+
+########## Official Websites (官网/账户管理) ##########
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,ibkr.info
+
+DOMAIN-SUFFIX,ibkrguides.com
+
+DOMAIN-SUFFIX,ibcdn.com
+DOMAIN-SUFFIX,iblink.com
+
+########## Regional Portals (区域入口) ##########
+# 仅保留实际存在的业务入口
+DOMAIN-SUFFIX,interactivebrokers.com.hk
+DOMAIN-SUFFIX,ibkr.hk
+DOMAIN-SUFFIX,ibkr.com.hk
+DOMAIN-SUFFIX,interactivebrokers.co.uk
+DOMAIN-SUFFIX,ibkr.co.uk
+DOMAIN-SUFFIX,interactivebrokers.com.au
+DOMAIN-SUFFIX,ibkr.com.au
+DOMAIN-SUFFIX,interactivebrokers.eu
+DOMAIN-SUFFIX,ibkr.eu
+DOMAIN-SUFFIX,interactivebrokers.co.jp
+
+########## China Web (国内网页) ##########
+DOMAIN-SUFFIX,interactivebrokers.com.cn
+DOMAIN-SUFFIX,ibkr.com.cn
+DOMAIN-SUFFIX,ibllc.com.cn
+
 DOMAIN-KEYWORD,ibkr
 DOMAIN-KEYWORD,ibllc
 DOMAIN-KEYWORD,interactivebrokers
-DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,ibkr.info
-DOMAIN-SUFFIX,zacks.com
-DOMAIN-SUFFIX,ibllc.com
-DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,go-mpulse.net
-DOMAIN-SUFFIX,wsj.net
-DOMAIN-SUFFIX,benzinga.com
-DOMAIN-SUFFIX,seekingalpha.com
-DOMAIN-SUFFIX,foolcdn.com
-DOMAIN-SUFFIX,tipranks.com
-DOMAIN-SUFFIX,estimize.com
-# 强制收录香港专线网关网段（103.38.91.3 所在大网段）
-IP-CIDR,103.38.91.0/24,no-resolve
-# 强制收录美国核心交易网关网段（8.17.22.31 所在大网段）
-IP-CIDR,8.17.20.0/22,no-resolve
-# 强制收录北美分流网关网段（64.190.177.40 所在大网段）
-IP-CIDR,64.190.0.0/16,no-resolve
-# 强制收录互联互通中转网段（101.52.237.228 所在大网段）
-IP-CIDR,101.52.0.0/16,no-resolve
+
+#DOMAIN-SUFFIX,zacks.com
+#DOMAIN-SUFFIX,go-mpulse.net
+#DOMAIN-SUFFIX,wsj.net
+#DOMAIN-SUFFIX,benzinga.com
+#DOMAIN-SUFFIX,seekingalpha.com
+#DOMAIN-SUFFIX,foolcdn.com
+#DOMAIN-SUFFIX,tipranks.com
+#DOMAIN-SUFFIX,estimize.com
+
+
 USER-AGENT,*ibkr*
 USER-AGENT,ibkr*
 USER-AGENT,*ibllc*
