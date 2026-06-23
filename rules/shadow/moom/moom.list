@@ -1,16 +1,17 @@
 #moomoo
-DOMAIN-KEYWORD,moomoobull
-DOMAIN-KEYWORD,moomoo
-DOMAIN-KEYWORD,futustatic
+
 DOMAIN-SUFFIX,moomoobull.com
 DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,futustatic.com
 DOMAIN-SUFFIX,futunn.com
+DOMAIN-KEYWORD,moomoobull
+DOMAIN-KEYWORD,moomoo
+DOMAIN-KEYWORD,futustatic
 USER-AGENT,moomoo*
 USER-AGENT,Futu*
 DOMAIN-SUFFIX,my-imcloud.com
 
-#DOMAIN-SUFFIX,fastly-edge.com
+# DOMAIN-SUFFIX,fastly-edge.com
 
 
 #IP-CIDR,43.128.0.0/12,no-resolve
