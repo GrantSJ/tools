@@ -44,14 +44,15 @@ DOMAIN-KEYWORD,ibkr
 DOMAIN-KEYWORD,ibllc
 DOMAIN-KEYWORD,interactivebrokers
 
-#DOMAIN-SUFFIX,zacks.com
-#DOMAIN-SUFFIX,go-mpulse.net
-#DOMAIN-SUFFIX,wsj.net
-#DOMAIN-SUFFIX,benzinga.com
-#DOMAIN-SUFFIX,seekingalpha.com
-#DOMAIN-SUFFIX,foolcdn.com
-#DOMAIN-SUFFIX,tipranks.com
-#DOMAIN-SUFFIX,estimize.com
+# app内产生的小众域名
+DOMAIN-SUFFIX,zacks.com
+DOMAIN-SUFFIX,go-mpulse.net
+DOMAIN-SUFFIX,wsj.net
+DOMAIN-SUFFIX,benzinga.com
+DOMAIN-SUFFIX,seekingalpha.com
+DOMAIN-SUFFIX,foolcdn.com
+DOMAIN-SUFFIX,tipranks.com
+DOMAIN-SUFFIX,estimize.com
 
 
 USER-AGENT,*ibkr*
