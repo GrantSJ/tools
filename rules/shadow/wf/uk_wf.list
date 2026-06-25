@@ -36,6 +36,7 @@ IP-CIDR,148.252.160.0/19,no-resolve
 # CTEXCEL
 DOMAIN-SUFFIX,ee.co.uk
 DOMAIN-SUFFIX,epdg.epc.mnc033.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX,rcs.mnc033.mcc234.jibecloud.net
 IP-CIDR,31.94.0.0/16,no-resolve
 
 # 3UK
