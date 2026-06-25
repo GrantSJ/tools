@@ -41,5 +41,6 @@ IP-CIDR,31.94.0.0/16,no-resolve
 
 # 3UK
 DOMAIN-SUFFIX,epdg.epc.mnc020.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX,rcs.mnc020.mcc234.jibecloud.net
 IP-CIDR,185.153.236.0/22,no-resolve
 IP-CIDR,185.153.237.0/24,no-resolve
