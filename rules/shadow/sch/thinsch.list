@@ -1,13 +1,16 @@
 
-USER-AGENT,*schwab*
-USER-AGENT,Schwab*
-USER-AGENT,thinkorswim*
 DOMAIN-SUFFIX,schwab.com
 DOMAIN-SUFFIX,charlesschwab.com
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,thinkorswim.com
 DOMAIN-SUFFIX,tdameritrade.com
 DOMAIN-SUFFIX,myschwab.com
+DOMAIN-SUFFIX,schwabcdn.com
+DOMAIN-KEYWORD,schwab
+USER-AGENT,*schwab*
+USER-AGENT,Schwab*
+USER-AGENT,thinkorswim*
+
 
 #DOMAIN-SUFFIX,uplynk.com
 DOMAIN-SUFFIX,trefis.com
