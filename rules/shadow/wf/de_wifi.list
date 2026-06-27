@@ -8,4 +8,6 @@ DOMAIN-SUFFIX,pr.go-esim.com
 DOMAIN-SUFFIX,rcs.mnc002.mcc262.jibecloud.net
 DOMAIN-SUFFIX,epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ims.mnc002.mcc262.3gppnetwork.org
+DOMAIN-SUFFIX,rcs.telephony.goog
+DOMAIN,fp-de-carrier-vodafone.rcs.telephony.goog
 IP-CIDR,139.7.0.0/16,no-resolve
