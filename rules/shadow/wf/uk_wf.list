@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,mnc010.mcc234.pub.3gppnetwork.org
 DOMAIN-SUFFIX,rcs.mnc010.mcc234.pub.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
 IP-CIDR,87.194.0.0/16,no-resolve
-#IP-CIDR,72.14.0.0/16,no-resolve
+IP-CIDR,72.14.0.0/16,no-resolve
 
 # VOXI
 DOMAIN,vfgb.idemia.io
