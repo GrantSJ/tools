@@ -1,6 +1,7 @@
 # NAME: Bybit
-
-DOMAIN-KEYWORD, bybit
+DOMAIN-SUFFIX,bybit-exchange.github.io
+DOMAIN-SUFFIX,bybit.ada.support
+DOMAIN-KEYWORD,bybit
 DOMAIN,bybit-exchange.github.io
 DOMAIN,monitor-frontend-collector.a.bybit-aws.com
 DOMAIN,bybit.ada.support
@@ -16,6 +17,7 @@ DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,bybit.biz    
 DOMAIN-SUFFIX,bybdc6.com   
 DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybitglobal.com
 DOMAIN-SUFFIX,bybit.cloud     
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
