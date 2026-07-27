@@ -1,0 +1,4 @@
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN-SUFFIX,telephony.goog
+# 精确域名匹配（防止直接呼入呼出进语音留言）
+DOMAIN,voice.telephony.goog
