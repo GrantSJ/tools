@@ -28,3 +28,11 @@ DOMAIN-SUFFIX,jjdsn.site
 DOMAIN-SUFFIX,zzrrv.com
 # 2. EngageForce / EngageLab 海外推送长连接网关 -> 走海外代理策略组
 DOMAIN-SUFFIX,engageforce.net
+# 1. 托管静态资源的 CDN 与加速域名 (jjdsn.vip、bgw.live、cloudfront.net 等) -> 走代理
+DOMAIN-SUFFIX,jjdsn.vip
+DOMAIN-SUFFIX,bgw.live
+DOMAIN-SUFFIX,cloudfront.net
+# 2. Fastly 隐私中继服务 (ohttp-relay) -> 走代理
+DOMAIN-SUFFIX,fastly-edge.com
+# 3. EngageForce 海外推送长连接网关域名与对应纯 IP -> 走代理
+DOMAIN-SUFFIX,engageforce.net
