@@ -284,3 +284,6 @@ DOMAIN-SUFFIX,us-west-2.amazonaws.com
 DOMAIN-SUFFIX,fullstory.com
 DOMAIN,api.segment.io
 DOMAIN,cdn.segment.com
+DOMAIN,use1-turn.fpjs.io
+DOMAIN,static.adzerk.net
+DOMAIN,api.sprig.com
