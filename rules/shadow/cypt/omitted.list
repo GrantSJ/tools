@@ -93,4 +93,4 @@ DOMAIN-SUFFIX,cnouyi.pizza
 DOMAIN-SUFFIX,ttdns2.com
 DOMAIN-SUFFIX,tobsnssdk.com
 # 3. [CDN 加速] Fastly 边缘节点纯 IP 直连兜底 
-IP-CIDR,151.101.3.6/32,no-resolve
+#IP-CIDR,151.101.3.6/32,no-resolve
