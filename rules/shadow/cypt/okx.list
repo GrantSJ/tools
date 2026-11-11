@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,xlayer.tech
 DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,oklink.com
 1. [推送服务] OneSignal 海外推送通知 -> 走 OKX/海外代理策略组
-DOMAIN-SUFFIX,onesignal.com,OKX
+DOMAIN-SUFFIX,onesignal.com
 
 # 2. [视频云与点播] BytePlus (火山引擎海外版) 视频与授权验证 -> 走代理
 DOMAIN-SUFFIX,byteplusvod.com
@@ -20,3 +20,8 @@ DOMAIN-SUFFIX,bytepluscdn.com
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,akamaized.net
+
+
+
+# 3. [CDN 加速] Fastly 边缘节点纯 IP 直连兜底 -> 走代理
+IP-CIDR,151.101.3.6/32,no-resolve
