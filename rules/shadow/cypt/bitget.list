@@ -12,3 +12,12 @@ DOMAIN-SUFFIX,bitget.land
 DOMAIN-SUFFIX,bitget.cafe
 DOMAIN-SUFFIX,bitget.farm
 DOMAIN-SUFFIX,gurenla.com
+
+# 1. [拦截] 埋点、错误日志与统计上报（防止通过日志泄露国内真实 IP）
+DOMAIN-SUFFIX,noxiaohao.com,REJECT
+# 2. [推送服务] EngageLab (极光全球推送) 长连接与状态上报 -> 走 Bitget 代理策略组
+DOMAIN-SUFFIX,engagelab.cc
+DOMAIN-SUFFIX,theengagelab.cc
+# 3. [证书校验] DigiCert 与 RapidSSL 证书状态查询 -> 走海外代理，防止 80 端口阻断
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,rapidssl.com
