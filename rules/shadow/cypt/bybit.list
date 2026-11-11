@@ -37,6 +37,10 @@ DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,akamaiedge.net
 DOMAIN-SUFFIX,akamaized.net
 
+# 加密货币漏网相关，屏蔽bybit的腾讯云udp打洞
+# - AND,((NETWORK,UDP),(OR,((DST-PORT,51051),(DST-PORT,51052)))),Bybit
+# 匹配整个腾讯云海外机房大段 (涵盖 43.135 / 43.154 / 43.160 / 43.173 等)
+IP-CIDR,43.128.0.0/10,no-resolve
 
 IP-CIDR,13.32.121.6/32,no-resolve
 IP-CIDR,43.133.238.145/32,no-resolve
