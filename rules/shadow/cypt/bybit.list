@@ -30,16 +30,6 @@ DOMAIN-SUFFIX,wsot2022.com
 DOMAIN-SUFFIX,ng-dex.com
 DOMAIN,resources.triple.app
 
-# 将 AppsFlyer 统计与归因域名统一指向海外代理），也可以REJECT 拦截，不参加任何渠道推广活动，拒绝在后台上报启动记录和设备信息
-#DOMAIN-SUFFIX,appsflyersdk.com
-#DOMAIN-SUFFIX,appsflyer.com
-#DOMAIN-SUFFIX,amazon.com
-#DOMAIN-SUFFIX,akamaiedge.net
-#DOMAIN-SUFFIX,akamaized.net
-
-# 加密货币漏网相关，屏蔽bybit的腾讯云udp打洞
-# - AND,((NETWORK,UDP),(OR,((DST-PORT,51051),(DST-PORT,51052)))),Bybit
-
 
 #IP-CIDR,13.32.121.6/32,no-resolve
 #IP-CIDR,43.133.238.145/32,no-resolve
