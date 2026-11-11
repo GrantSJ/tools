@@ -117,3 +117,11 @@ DOMAIN-SUFFIX,sintral.me
 # 兜底：其他所有 Forter 风控和 CloudFront 统一走代理（防漏网直连暴露国内 IP）
 #DOMAIN-SUFFIX,forter.com
 #DOMAIN-SUFFIX,cloudfront.net
+
+# 一次性覆盖 常用的 AWS 东京机房 (ap-northeast-1) 核心 IP 段
+IP-CIDR,13.192.0.0/13,no-resolve
+IP-CIDR,18.176.0.0/13,no-resolve
+IP-CIDR,35.72.0.0/13,no-resolve
+IP-CIDR,52.192.0.0/13,no-resolve
+IP-CIDR,54.64.0.0/15,no-resolve
+IP-CIDR,57.180.0.0/14,no-resolve
