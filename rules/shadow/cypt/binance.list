@@ -55,3 +55,5 @@ DOMAIN-SUFFIX,ap-northeast-1.elb.amazonaws.com
 DOMAIN,crt.rootca1.amazontrust.com
 DOMAIN,d3sknckuh1o9tg.cloudfront.net
 DOMAIN,o529943.ingest.us.sentry.io
+DOMAIN,m.api.forter.com
+DOMAIN,addfd325e6e3.cdn4.forter.com
