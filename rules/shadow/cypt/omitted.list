@@ -1,4 +1,5 @@
-DOMAIN-SUFFIX,sentry.io # 错误监控/崩溃上报服务
+# 错误监控/崩溃上报服务
+DOMAIN-SUFFIX,sentry.io
 
 # bybit 
 DOMAIN-SUFFIX,appsflyersdk.com
