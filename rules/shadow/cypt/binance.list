@@ -50,3 +50,8 @@ DOMAIN-SUFFIX,saasexch.io
 DOMAIN-SUFFIX,binancefuture.com
 DOMAIN-SUFFIX,bnappzh.co
 DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN,aad90d5c0e88c4b4285bd912f64d970d-1403944741.ap-northeast-1.elb.amazonaws.com
+DOMAIN-SUFFIX,ap-northeast-1.elb.amazonaws.com
+DOMAIN,crt.rootca1.amazontrust.com
+DOMAIN,d3sknckuh1o9tg.cloudfront.net
+DOMAIN,o529943.ingest.us.sentry.io
