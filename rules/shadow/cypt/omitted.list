@@ -72,10 +72,10 @@ DOMAIN-SUFFIX,ipapi.co
 DOMAIN-SUFFIX,lbctrl.com
 DOMAIN-SUFFIX,theengagelab.com
 # [纯 IP 防护] 针对未知的 Bitget 辅助纯 IP 直连做兜底处理
-IP-CIDR,8.212.0.0/16,Crypto,no-resolve
-IP-CIDR,8.212.49.105/32,Crypto,no-resolve
-IP-CIDR,150.109.11.204/32,Crypto,no-resolve
-IP-CIDR,124.156.206.18/32,Crypto,no-resolve
+IP-CIDR,8.212.0.0/16,no-resolve
+IP-CIDR,8.212.49.105/32,no-resolve
+IP-CIDR,150.109.11.204/32,no-resolve
+IP-CIDR,124.156.206.18/32,no-resolve
 
  # okx
 # 1. [推送服务] OneSignal 海外推送通知
