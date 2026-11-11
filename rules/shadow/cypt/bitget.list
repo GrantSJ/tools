@@ -36,3 +36,11 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,fastly-edge.com
 # 3. EngageForce 海外推送长连接网关域名与对应纯 IP -> 走代理
 DOMAIN-SUFFIX,engageforce.net
+
+# 1. [核心交易与状态] 统一将长桥主域名归入海外代理策略组
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,longbridgeapp.com
+# 2. [埋点与统计] 如果你想防止行为统计上报，可直接 REJECT；
+# 建议对行为埋点和统计统一走代理，避免直连暴露 IP
+DOMAIN,sgtm.btsgtm.com
+DOMAIN-SUFFIX,btsgtm.com
