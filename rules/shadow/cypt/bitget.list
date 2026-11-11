@@ -21,3 +21,5 @@ DOMAIN-SUFFIX,theengagelab.cc
 # 3. [证书校验] DigiCert 与 RapidSSL 证书状态查询 -> 走海外代理，防止 80 端口阻断
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,rapidssl.com
+# 1. 托管 EngageLab 海外推送服务 (覆盖 3001、19000 等所有端口) -> 走 Bitget 代理策略组
+DOMAIN-SUFFIX,push.theengagelab.cc
