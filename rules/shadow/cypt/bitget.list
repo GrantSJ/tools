@@ -23,3 +23,8 @@ DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,rapidssl.com
 # 1. 托管 EngageLab 海外推送服务 (覆盖 3001、19000 等所有端口) 
 DOMAIN-SUFFIX,push.theengagelab.cc
+# 1. 托管静态资源的 CDN 域名 (.jjdsn.site 和 .zzrrv.com) -> 走海外代理策略组
+DOMAIN-SUFFIX,jjdsn.site
+DOMAIN-SUFFIX,zzrrv.com
+# 2. EngageForce / EngageLab 海外推送长连接网关 -> 走海外代理策略组
+DOMAIN-SUFFIX,engageforce.net
