@@ -92,5 +92,4 @@ DOMAIN-SUFFIX,cnouyi.pizza
 # 2. [埋点与统计] 字节跳动火山引擎 ToB SDK 及 HTTPDNS 调度域名 
 DOMAIN-SUFFIX,ttdns2.com
 DOMAIN-SUFFIX,tobsnssdk.com
-# 3. [CDN 加速] Fastly 边缘节点纯 IP 直连兜底 
-#IP-CIDR,151.101.3.6/32,no-resolve
+
