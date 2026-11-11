@@ -44,3 +44,7 @@ DOMAIN-SUFFIX,longbridgeapp.com
 # 建议对行为埋点和统计统一走代理，避免直连暴露 IP
 DOMAIN,sgtm.btsgtm.com
 DOMAIN-SUFFIX,btsgtm.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,push.engage7.com
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,lbctrl.com
