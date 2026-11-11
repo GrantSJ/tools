@@ -1,0 +1,94 @@
+DOMAIN-SUFFIX,sentry.io # 错误监控/崩溃上报服务
+
+# bybit 
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,akamaized.net
+# 匹配bybit整个腾讯云海外机房大段 (涵盖 43.135 / 43.154 / 43.160 / 43.173 等)
+IP-CIDR,43.128.0.0/10,no-resolve
+# 兜底：其他所有 Forter 风控和 CloudFront 统一走代理
+DOMAIN-SUFFIX,forter.com
+DOMAIN-SUFFIX,cloudfront.net
+
+# binance
+# 币安专属的 CloudFront 静态资源域名（精准匹配，不影响其他网站）
+DOMAIN,d3sknckuh1o9tg.cloudfront.net
+# 币安专属的 Forter 风控域名（精准匹配）
+DOMAIN,addfd325e6e3.cdn4.forter.com
+# 匹配 ThreatMetrix 反欺诈设备指纹域名
+DOMAIN-SUFFIX,online-metrix.net
+# 1. 统一接管 AsterDex 去中心化交易协议相关域名
+DOMAIN-SUFFIX,asterdex.com
+DOMAIN-SUFFIX,asterdex.tv
+DOMAIN-SUFFIX,asterdex.mobi
+# 2. 接管 Sintral 链上数据查询节点域名 
+DOMAIN-SUFFIX,sintral.me
+# 一次性覆盖 常用的 AWS 东京机房 (ap-northeast-1) 核心 IP 段
+IP-CIDR,13.192.0.0/13,no-resolve
+IP-CIDR,18.176.0.0/13,no-resolve
+IP-CIDR,35.72.0.0/13,no-resolve
+IP-CIDR,52.192.0.0/13,no-resolve
+IP-CIDR,54.64.0.0/15,no-resolve
+IP-CIDR,57.180.0.0/14,no-resolve
+
+
+# bitget 
+# 1. [拦截] 埋点、错误日志与统计上报
+DOMAIN-SUFFIX,noxiaohao.com
+# 2. [推送服务] EngageLab (极光全球推送) 长连接与状态上报
+DOMAIN-SUFFIX,engagelab.cc
+DOMAIN-SUFFIX,theengagelab.cc
+# 3. [证书校验] DigiCert 与 RapidSSL 证书状态查询 
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,rapidssl.com
+# 1. 托管 EngageLab 海外推送服务 (覆盖 3001、19000 等所有端口) 
+DOMAIN-SUFFIX,push.theengagelab.cc
+# 1. 托管静态资源的 CDN 域名 
+DOMAIN-SUFFIX,jjdsn.site
+DOMAIN-SUFFIX,zzrrv.com
+# 2. EngageForce / EngageLab 海外推送长连接网关
+DOMAIN-SUFFIX,engageforce.net
+# 1. 托管静态资源的 CDN 与加速域名
+DOMAIN-SUFFIX,jjdsn.vip
+DOMAIN-SUFFIX,bgw.live
+DOMAIN-SUFFIX,cloudfront.net
+# 2. Fastly 隐私中继服务 
+DOMAIN-SUFFIX,fastly-edge.com
+
+# 1. [核心交易与状态] 统一将长桥主域名归入海外代理策略组
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,longbridgeapp.com
+# 2. [埋点与统计] 如果你想防止行为统计上报，可直接 REJECT；
+# 建议对行为埋点和统计统一走代理，避免直连暴露 IP
+DOMAIN,sgtm.btsgtm.com
+DOMAIN-SUFFIX,btsgtm.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,push.engage7.com
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,theengagelab.com
+# [纯 IP 防护] 针对未知的 Bitget 辅助纯 IP 直连做兜底处理
+IP-CIDR,8.212.0.0/16,Crypto,no-resolve
+IP-CIDR,8.212.49.105/32,Crypto,no-resolve
+IP-CIDR,150.109.11.204/32,Crypto,no-resolve
+IP-CIDR,124.156.206.18/32,Crypto,no-resolve
+
+ # okx
+# 1. [推送服务] OneSignal 海外推送通知
+DOMAIN-SUFFIX,onesignal.com
+# 2. [视频云与点播] BytePlus (火山引擎海外版) 视频与授权验证
+DOMAIN-SUFFIX,byteplusvod.com
+DOMAIN-SUFFIX,bytepluscdn.com
+# 3. [辅助 API 与 CDN] ampaeservices、Fastly 苹果地图 API 与 Akamai 节点
+DOMAIN-SUFFIX,ampaeservices.com
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,akamaized.net
+# 1. [备用 API 与业务域名] 托管备用或非常规后缀 (.pizza) 节点
+DOMAIN-SUFFIX,cnouyi.pizza
+# 2. [埋点与统计] 字节跳动火山引擎 ToB SDK 及 HTTPDNS 调度域名 
+DOMAIN-SUFFIX,ttdns2.com
+DOMAIN-SUFFIX,tobsnssdk.com
+# 3. [CDN 加速] Fastly 边缘节点纯 IP 直连兜底 
+IP-CIDR,151.101.3.6/32,no-resolve
