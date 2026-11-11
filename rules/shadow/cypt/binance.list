@@ -101,29 +101,3 @@ DOMAIN,crt.rootca1.amazontrust.com
 DOMAIN,o529943.ingest.us.sentry.io
 DOMAIN,m.api.forter.com
 DOMAIN-SUFFIX,walletconnect.com
-
-# 币安专属的 CloudFront 静态资源域名（精准匹配，不影响其他网站）
-# DOMAIN,d3sknckuh1o9tg.cloudfront.net
-# 币安专属的 Forter 风控域名（精准匹配）
-# DOMAIN,addfd325e6e3.cdn4.forter.com
-# 匹配 ThreatMetrix 反欺诈设备指纹域名 -> 走 Binance 代理
-# DOMAIN-SUFFIX,online-metrix.net
-
-# 1. 统一接管 AsterDex 去中心化交易协议相关域名 -> 走代理
-#DOMAIN-SUFFIX,asterdex.com
-#DOMAIN-SUFFIX,asterdex.tv
-#DOMAIN-SUFFIX,asterdex.mobi
-# 2. 接管 Sintral 链上数据查询节点域名 -> 走代理
-#DOMAIN-SUFFIX,sintral.me
-
-# 兜底：其他所有 Forter 风控和 CloudFront 统一走代理（防漏网直连暴露国内 IP）
-#DOMAIN-SUFFIX,forter.com
-#DOMAIN-SUFFIX,cloudfront.net
-
-# 一次性覆盖 常用的 AWS 东京机房 (ap-northeast-1) 核心 IP 段
-#IP-CIDR,13.192.0.0/13,no-resolve
-#IP-CIDR,18.176.0.0/13,no-resolve
-#IP-CIDR,35.72.0.0/13,no-resolve
-#IP-CIDR,52.192.0.0/13,no-resolve
-#IP-CIDR,54.64.0.0/15,no-resolve
-#IP-CIDR,57.180.0.0/14,no-resolve
