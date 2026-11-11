@@ -282,3 +282,5 @@ DOMAIN,t.o-s.io
 DOMAIN-SUFFIX,openbanking.mastercard.com
 DOMAIN-SUFFIX,us-west-2.amazonaws.com
 DOMAIN-SUFFIX,fullstory.com
+DOMAIN,api.segment.io
+DOMAIN,cdn.segment.com
