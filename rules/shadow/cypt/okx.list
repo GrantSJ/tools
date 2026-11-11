@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,xlayer.tech
 DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,oklink.com
-1. [推送服务] OneSignal 海外推送通知 -> 走 OKX/海外代理策略组
+1. [推送服务] OneSignal 海外推送通知 
 DOMAIN-SUFFIX,onesignal.com
 
 # 2. [视频云与点播] BytePlus (火山引擎海外版) 视频与授权验证 -> 走代理
@@ -20,8 +20,11 @@ DOMAIN-SUFFIX,bytepluscdn.com
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,akamaized.net
-
-
+# 1. [备用 API 与业务域名] 托管备用或非常规后缀 (.pizza) 节点 -> 走海外代理策略组
+DOMAIN-SUFFIX,cnouyi.pizza
+# 2. [埋点与统计] 字节跳动火山引擎 ToB SDK 及 HTTPDNS 调度域名 (.ttdns2.com) -> 走代理或拦截
+DOMAIN-SUFFIX,ttdns2.com
+DOMAIN-SUFFIX,tobsnssdk.com
 
 # 3. [CDN 加速] Fastly 边缘节点纯 IP 直连兜底 -> 走代理
 IP-CIDR,151.101.3.6/32,no-resolve
